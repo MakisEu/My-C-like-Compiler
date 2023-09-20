@@ -1,4 +1,4 @@
-antlr4 -visitor Expr.g4
-javac *.java
-grun antlr.Expr prog tests/test7.txt -gui
-/usr/lib/jvm/java-20-openjdk/bin/java -jar /home/makis/eclipse-workspace/MyCompiler/src/Export/MyCompiler.jar  /home/makis/eclipse-workspace/MyCompiler/src/tests/test11.txt
+antlr4 -visitor Expr.g4 #generate classes
+javac *.java #compile
+grun antlr.Expr prog path/to/MyFile.txt -gui #View parse tree of MyFile.txt
+/usr/lib/jvm/java-20-openjdk/bin/java -jar path/to/src/Export/MyCompiler.jar  path/to/MyFile.txt #Run compiler
