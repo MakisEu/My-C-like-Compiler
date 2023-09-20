@@ -1,0 +1,10 @@
+{
+
+		var first, second, i, tmp: int;
+		first=11;
+		while (first<=10){
+		print (first);
+		first+=1;
+		}
+
+}

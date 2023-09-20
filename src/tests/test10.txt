@@ -1,0 +1,16 @@
+{
+
+		var first, second, i, tmp: int;
+		first=1;
+		second=9;
+		tmp=9;
+		tmp/=2;
+		print(tmp);
+		tmp=second/2;
+		print (tmp);
+		tmp=5;
+		print(tmp%3);
+		tmp%=3;
+		print (tmp);
+
+}

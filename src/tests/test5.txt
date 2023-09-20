@@ -1,0 +1,11 @@
+{
+		var i,j,k:int;
+		i=1;
+		j=9;
+		k=99;
+		for (i=0;i*j<k;i+=1){
+				print i*j;
+		}
+		print i;
+		print j;
+}

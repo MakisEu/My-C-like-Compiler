@@ -1,0 +1,24 @@
+{
+
+		var first, second, i, tmp: int;
+		first=0;
+		second=1;
+		while (i<10) {
+				i=i+1;
+				tmp=first+second;
+				print tmp;
+				if (i==7) break;
+				first=second;
+				second=tmp;
+		}
+		first=0;
+		second=1;
+		for (i=0;i<10;i+=0) {
+				i=i+1;
+				tmp=first+second;
+				print tmp;
+				if (i==7) break;
+				first=second;
+				second=tmp;
+		}
+}

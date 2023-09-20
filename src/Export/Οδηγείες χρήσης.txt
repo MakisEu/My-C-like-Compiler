@@ -1,0 +1,10 @@
+Σημείωση: Χρησιμοποιώ Linux και GNU MIX DEVELOPMENT KIT. Έκδοση java(Linux)=java-20-openjdk
+Από γραμμή εντολών:
+1. Τρέξτε την εντολή: 
+java -jar /path/to/MyCompiler.jar  /path/to/FileIWantToRun.txt
+		Παράδειγμα στον υπολογιστή μου(η έκδοση java προεπιλογής δεν υποστηρίζεται για εμένα):
+		/usr/lib/jvm/java-20-openjdk/bin/java -jar /home/makis/eclipse-workspace/MyCompiler/src/Export/MyCompiler.jar  /home/makis/eclipse-workspace/MyCompiler/src/tests/test11.txt
+		Αφού τρέξετε την εντολή, η διεργασία θα περιμένει input από την γραμμή εντολών. Αντί για σκέτο compiler(που θέλει η εργασία), το έχω κάνει να δουλεύει και ως Interpeter. Με 0 λειτουργεί ως Interpeter και δεν παράγει κώδικα MIXAL και με 1 παράγει κώδικα MIXAL αλλά τα αποτελέσματα στην οθόνη μπορεί να μην είναι σωστά.
+2. Δώσε input:
+Παράδειγμα:1(Enter)
+3. Δημιουργήθηκε κώδικας MIXAL στο φάκελο που το τρέξατε με όνομα produced.mix 

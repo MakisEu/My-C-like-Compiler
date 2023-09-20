@@ -1,0 +1,13 @@
+{
+
+		var first, second, i, tmp: int;
+		first=0;
+		second=1;
+		for (i=0 ; i<10 ; i+=1) {
+				tmp=first+second;
+				first=second;
+				second=tmp;
+				if (i==7) continue;
+				print tmp;
+		}
+}

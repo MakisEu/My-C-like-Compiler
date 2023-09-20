@@ -1,0 +1,8 @@
+{
+
+		var first, second, i, tmp: int;
+		first=1;
+		second=9;
+		tmp=second%5;
+		print(tmp);
+}

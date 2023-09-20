@@ -1,0 +1,24 @@
+{
+
+		var first, second, i, tmp: int;
+		first=1;
+		if (first){
+		print (1);
+		}
+		else{
+		print (2); 
+		}
+		while (i==0){
+				i=1;
+				if (!first){
+					print (1);
+				    continue;
+					print(5);
+				}
+				else{
+				print (2); 
+				}
+		}		
+	
+		print(3);
+}

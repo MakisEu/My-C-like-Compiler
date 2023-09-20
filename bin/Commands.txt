@@ -1,0 +1,4 @@
+antlr4 -visitor Expr.g4
+javac *.java
+grun antlr.Expr prog tests/test7.txt -gui
+/usr/lib/jvm/java-20-openjdk/bin/java -jar /home/makis/eclipse-workspace/MyCompiler/src/Export/MyCompiler.jar  /home/makis/eclipse-workspace/MyCompiler/src/tests/test11.txt

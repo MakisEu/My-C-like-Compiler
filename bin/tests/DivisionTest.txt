@@ -1,0 +1,36 @@
+{
+
+		var first , second, i, tmp: int;
+		i=8;
+		//Test /=
+		first=-15;
+		first/=i- 5;
+		print (first);
+
+		first=15;
+		first/=-3;
+		print (first);
+		
+		//Test %=
+		first=-14;
+		first%=3;
+		print (first);
+
+		first=14;
+		first%=i - 11 ;
+		print (first);
+
+		//Test division
+		print ((-15)/3);
+		print (15/(-3));
+		
+		//Test remainder
+		print ((-14)%3);
+		print (14%(-3));
+
+		//Test Zero Division
+		first=0;
+		print (5/first);
+
+}
+

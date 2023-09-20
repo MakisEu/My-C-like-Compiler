@@ -1,0 +1,27 @@
+{
+
+		var first, second, i, tmp: int;
+		first=30;
+		first=- first;
+		print(first);
+
+		first=- first;
+		print(first);
+
+		first=! first;
+		print(first);
+
+		first=- 30;
+		first=! first;
+		print(first);
+		
+		first=0;
+		first=! first;
+		print(first);
+
+		first=1;
+		first=! first;
+		print(first);
+
+
+}

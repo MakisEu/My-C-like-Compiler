@@ -1,0 +1,15 @@
+{
+
+		var first , second, i, tmp: int;
+		first=0;
+		second=5;
+		print second;
+
+		first=1073741810;
+		second=50;
+		tmp=first+second;
+		tmp%=1;
+		print (tmp);
+
+}
+
